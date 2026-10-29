@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Outer framing plate (top and bottom) -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M12,12 h72 v8 h-72 z" />
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M12,76 h72 v8 h-72 z" />
+    <!-- Vertical studs (Stud 1, 2, 3, 4) -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M16,20 h8 v56 h-8 z" />
+    <path
+        android:fillColor="@color/secondary"
+        android:pathData="M38,20 h8 v56 h-8 z" />
+    <path
+        android:fillColor="@color/secondary"
+        android:pathData="M60,20 h8 v56 h-8 z" />
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M72,20 h8 v56 h-8 z" />
+    <!-- Center spacing marker dimension arrow -->
+    <path
+        android:fillColor="@color/warning"
+        android:pathData="M24,46 h44 v4 h-44 z" />
+    <path
+        android:fillColor="@color/warning"
+        android:pathData="M26,42 L18,48 L26,54 Z" />
+    <path
+        android:fillColor="@color/warning"
+        android:pathData="M66,42 L74,48 L66,54 Z" />
+</vector>

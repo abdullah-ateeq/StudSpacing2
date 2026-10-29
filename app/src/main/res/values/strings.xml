@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Information -->
+    <string name="app_name">StudSpacing</string>
+    <string name="app_tagline">Precision Wall Framing &amp; Stud Layout Calculator</string>
+    <string name="app_version_format">Version %1$s</string>
+    <string name="app_version_name">1.0.0</string>
+
+    <!-- Navigation Menu Labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_result">Result</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about">About</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_loading">Loading Framing Calculator…</string>
+
+    <!-- Home Screen - Inputs & Labels -->
+    <string name="home_title">Stud Spacing Calculator</string>
+    <string name="home_subtitle">Calculate exact stud marks and count for standard wall framing</string>
+    <string name="wall_length_label">Total Wall Length</string>
+    <string name="wall_length_hint_imperial">e.g., 120 (Inches)</string>
+    <string name="wall_length_hint_metric">e.g., 300 (Centimeters)</string>
+    <string name="on_center_spacing_label">On-Center (O.C.) Spacing</string>
+    <string name="on_center_spacing_hint_imperial">16 or 24 inches</string>
+    <string name="on_center_spacing_hint_metric">40 or 60 cm</string>
+    <string name="stud_thickness_label">Stud Thickness</string>
+    <string name="stud_thickness_hint_imperial">e.g., 1.5 inches (2x4 / 2x6 standard)</string>
+    <string name="stud_thickness_hint_metric">e.g., 3.8 centimeters</string>
+    <string name="btn_calculate">Calculate Stud Layout</string>
+    <string name="presets_label">Standard Spacing Presets:</string>
+    <string name="preset_16_inch">16\" O.C. (Standard)</string>
+    <string name="preset_24_inch">24\" O.C. (Advanced)</string>
+    <string name="preset_40_cm">40 cm O.C.</string>
+    <string name="preset_60_cm">60 cm O.C.</string>
+
+    <!-- Input Validation Errors -->
+    <string name="error_wall_length_required">Please enter total wall length</string>
+    <string name="error_wall_length_invalid">Wall length must be greater than zero</string>
+    <string name="error_spacing_required">Please enter on-center spacing</string>
+    <string name="error_spacing_invalid">Spacing must be greater than zero</string>
+    <string name="error_thickness_required">Please enter stud thickness</string>
+    <string name="error_thickness_invalid">Thickness must be greater than zero</string>
+    <string name="error_spacing_exceeds_wall">Spacing cannot exceed wall length</string>
+
+    <!-- Result Screen -->
+    <string name="result_title">Framing Layout Result</string>
+    <string name="result_summary_total_studs">Total Studs Needed</string>
+    <string name="result_wall_length_format">Wall Length: %1$.1f %2$s</string>
+    <string name="result_spacing_format">Spacing: %1$.1f %2$s O.C.</string>
+    <string name="result_thickness_format">Thickness: %1$.1f %2$s</string>
+    <string name="result_stud_positions_header">Stud Layout Positions (Tape Marks)</string>
+    <string name="result_stud_positions_sub">Tape measure positions from leading wall edge</string>
+    <string name="stud_number_format">Stud #%1$d</string>
+    <string name="stud_center_pos_format">Center: %1$.2f %2$s</string>
+    <string name="stud_edge_pos_format">Mark Edge: %1$.2f %2$s</string>
+    <string name="stud_tag_start">START (Flush)</string>
+    <string name="stud_tag_field">FIELD (O.C.)</string>
+    <string name="stud_tag_end">END (Flush)</string>
+    <string name="btn_save_to_history">Save to History</string>
+    <string name="btn_new_calculation">New Calculation</string>
+    <string name="msg_saved_to_history">Calculation saved to history successfully!</string>
+    <string name="msg_already_saved">This calculation is already saved in history.</string>
+
+    <!-- History Section -->
+    <string name="history_title">Saved Calculations</string>
+    <string name="history_empty">No calculations saved yet. Perform a calculation and tap \"Save to History\".</string>
+    <string name="history_item_studs_format">%1$d Studs</string>
+    <string name="history_item_wall_format">Wall: %1$.1f %2$s | Spacing: %3$.1f %4$s</string>
+    <string name="history_clear_all">Clear All History</string>
+    <string name="history_clear_dialog_title">Clear Calculation History?</string>
+    <string name="history_clear_dialog_message">Are you sure you want to delete all saved calculations? This action cannot be undone.</string>
+    <string name="history_cleared_msg">History cleared successfully.</string>
+    <string name="history_item_deleted_msg">Calculation removed from history.</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">App Settings</string>
+    <string name="settings_unit_title">Measurement System</string>
+    <string name="settings_unit_summary">Switch between Imperial (Inches) and Metric (Centimeters)</string>
+    <string name="unit_imperial">Imperial (Inches)</string>
+    <string name="unit_metric">Metric (Centimeters)</string>
+    <string name="unit_inches_symbol">in</string>
+    <string name="unit_cm_symbol">cm</string>
+    <string name="settings_theme_title">Dark Theme</string>
+    <string name="settings_theme_summary">Enable night mode for low-light workshop environments</string>
+
+    <!-- About Screen -->
+    <string name="about_title">About StudSpacing</string>
+    <string name="about_description">StudSpacing is a dedicated utility built specifically for framing carpenters, general contractors, and DIY woodworkers. It calculates the exact quantity and tape measure positions for wall studs based on total wall length and desired on-center spacing, accounting for drywall breaks and end studs.</string>
+    <string name="about_framing_tip_title">Framing Tip (Drywall Alignment)</string>
+    <string name="about_framing_tip_content">Standard 16\" on-center framing places the first field stud at 15 1/4\" on edge so that 48\" and 96\" drywall sheet edges break centered on the stud face.</string>
+    <string name="about_privacy_policy">Privacy Policy</string>
+    <string name="about_terms_of_service">Terms of Service</string>
+    <string name="about_compliance_notice">StudSpacing operates 100% offline. No personally identifiable information, location data, or diagnostics are tracked or uploaded.</string>
+
+    <!-- Privacy Policy & Terms Content (Google Play Compliance) -->
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_content">StudSpacing (\"the App\") respects your privacy.\n\n1. Data Collection: The App does NOT collect, store, or transmit any personal data, location data, or device identifiers. All measurements and calculation history remain stored strictly on your local device.\n\n2. Third-Party Services: The App does not integrate third-party trackers, analytics SDKs, or advertising networks.\n\n3. Permissions: The App requires no dangerous system permissions.\n\n4. Contact: If you have questions regarding this policy, contact developer support via the Play Store listing.</string>
+    <string name="terms_of_service_title">Terms of Service</string>
+    <string name="terms_of_service_content">By using StudSpacing (\"the App\"), you agree to the following terms:\n\n1. Use License: The App provides framing estimations as an advisory tool for carpentry and DIY projects.\n\n2. Disclaimer: Always verify structural wall layouts against local building codes, structural engineering blueprints, and load-bearing requirements before cutting lumber or erecting framing.\n\n3. Limitation of Liability: The developer is not liable for structural defects, material miscalculations, or construction damages resulting from use of this application.</string>
+
+    <!-- General Common Strings -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_close">Close</string>
+    <string name="action_delete">Delete</string>
+</resources>
